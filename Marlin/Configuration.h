@@ -1514,8 +1514,9 @@
 //#define BQ_LCD_SMART_CONTROLLER
 
 //
+// ANET_10 Controller supported displays.
 //
-//
+//#define ANET_KEYPAD_LCD         // Requires ADC_KEYPAD_PIN to be assigned to an analog pin.
                                   // This LCD is known to be susceptible to electrical interference
                                   // which scrambles the display.  Pressing any button clears it up.
                                   // This is a LCD2004 display with 5 analog buttons.
